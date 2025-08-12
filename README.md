@@ -1,26 +1,52 @@
-# ImageJ-macros
-Macros de ImageJ para análisis de imágenes cerebrales - Tesis de Katherine H.
-# Macros de ImageJ - Neurociencia
+# 🧠 ImageJ Macros for Brain Image Analysis
 
-Este repositorio contiene macros desarrolladas para mi tesis en neurociencia.
+This repository contains a set of custom macros developed in ImageJ/Fiji as part of my neuroscience thesis project, focused on microglia, reelin, and their role in Alzheimer's disease.
 
-## 🧠 Macros incluidas
+## 🧪 Thesis Project
+**Author**: Katherine H.  
+**Topic**: Automated analysis of brain images in Alzheimer's models  
+**Institution**: University of Barcelona  
+**Year**: 2025
 
-1. **umbral_automatico.ijm** – Aplica un umbral fijo a imágenes de 16 bits.
-2. **analisis_densidad.ijm** – Calcula densidad integrada en regiones de interés.
-3. **detectar_ROIs.ijm** – Detecta regiones automáticamente con ajustes básicos.
-4. **normalizar_intensidad.ijm** – Normaliza imágenes entre 0 y 255 tras umbral.
+## 📂 Included Macros
 
-## 📥 Cómo usarlas
+| Macro | Description |
+|-------|-------------|
+| `umbral_automatico.ijm` | Applies a fixed threshold to 16-bit images for segmentation. |
+| `analisis_densidad.ijm` | Calculates integrated density within regions of interest (ROIs). |
+| `detectar_ROIs.ijm` | Automatically detects regions with basic adjustable parameters. |
+| `normalizar_intensidad.ijm` | Normalizes pixel intensity between 0 and 255 after thresholding. |
 
-1. Abre Fiji o ImageJ.
-2. Ve a `Plugins > Macros > Run`.
-3. Selecciona la macro `.ijm` que desees ejecutar.
+## 📥 How to Run
 
----
+1. Open **ImageJ**.
+2. Go to `Plugins > Macros > Run`.
+3. Select the `.ijm` macro file you wish to execute.
+4. Follow on-screen instructions or adjust parameters as needed.
 
-### Contacto
+## 🧬 Applications
 
-**Katherine H.**  
-📧 katherrera10@gmail.com  
-🔗 [Mi página con más recursos](https://katherine.carrd.co)
+These macros were designed for:
+- Quantification of activated microglia
+- Analysis of reelin expression
+- Comparison between control and Alzheimer groups
+- Automation of repetitive tasks in histological image processing
+
+## 📸 Examples and Results
+
+Example images and output data can be found in:
+- `sample_images/`
+- `results/`
+
+## 📚 Citation and Use
+
+If you use these macros in your research, please cite this repository as:
+
+> Katherine H. (2025). *ImageJ Macros for Neuroimaging Analysis in Alzheimer's Research*. GitHub repository: [github.com/yourusername/ImageJ-macros](https://github.com/yourusername/ImageJ-macros)
+
+## 📬 Contact
+
+For questions, suggestions, or collaboration:
+- GitHub: @katherpa(https://github.com/yourusername)
+- Email: [katherrera10@gmail.com] 
+- 🔗 [Mi página con más recursos](https://katherine.carrd.co)
